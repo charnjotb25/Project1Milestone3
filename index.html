@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Profile Page</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="mycss_web.css">
+	<link rel="stylesheet" href="mycss_tablet.css">
+ 
+	<meta charset="utf-8">
+ 
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	
+	
+	
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+	
+	
+	
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+	
+	<style>
+		html{
+  		  scroll-behavior: smooth;
+		}
+		
+		p{
+                  color: #000000;
+                  font-size: 19px;
+                }
+		
+		body{
+                  background-color: #C5CBE3;
+                }
+		
+		a:link{
+		  color:#007bff;
+                }
+
+                a:hover {
+                  color:yellow;
+                }
+                  
+	</style>
+</head>
+
+<body>
+	<div class="jumbotron jumbotron-fluid">
+		<div class="container-fluid">
+			<h1 class="font-italic font-weight-bolder text-uppercase" style="padding-top: 5%; font-size: 50px; font-family: poppins;">
+            Welcome to My Webpage</h1>
+			
+		</div>
+	</div>
+    
+   
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <a class="navbar-brand" href="#">
+    <img src="https://t4.ftcdn.net/jpg/03/43/04/59/360_F_343045983_qeAH6HtgKhmVIRZD3qNLiCvYDiKi5i4m.jpg" alt="logo" style="width:40px;">
+  </a>
+  
+
+  <ul class="navbar-nav">
+    <li class="nav-item" style="color:black;">
+      <a class="nav-link" href="#Basic profile information">Profile</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Education">Education</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Work Experience">Experience</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Programming Skills">Skills</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#General Interests">Interests</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Favorite song, film, and TV show">Favorites</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#Favorite Website">Favorite Website</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" href="#My Projects in this course">Projects</a>
+    </li>
+    
+  </ul>
+</nav>
+	<div class="container">
+    <div class="row" style="padding-top:0;">
+    <div class="col-lg-4">
+    <ul id="nav">
+	<li><a class="active">MENU</a></li>
+        <li> <a href="#Basic profile information">Basic Profile Information</a></li>
+       <li> <a href="#Education">Education Summary</a></li>
+       <li> <a href="#Work Experience">Work Experience</a></li>
+       <li> <a href="#Programming Skills">Programming Skills</a></li>
+       <li> <a href="#General Interests">General Interests</a></li>
+       <li> <a href="#Favorite song, film, and TV show">Favorite Song, Film, and TV Show</a></li>
+       <li> <a href="#Favorite Website">Favorite Website</a></li>
+       <li> <a href="#My Projects in this course">My Projects in this course</a></li>
+       </ul>
+    </div>
+    <div class="col-lg-8">
+     <div class="BasicProfileInfo" id="Basic profile information">
+    <h2> Basic Profile Information </h2>
+      <center><img id="ProfilePic" class="rounded-circle" src="profile-avatar.jpeg" alt="Profile Pic" title="Profile Pic" style="width:185px;height:250px;"></center> <br><br>
+	<p style="text-align:center;">
+    
+    <b>Name:</b> Charnjot Bhogal <br>
+    <b>School:</b> St. Johns University <br>
+    <b>Major:</b> Computer Science  <br>
+  
+    
+    </p>
+    </div>
+  	<hr>
+    
+    
+    <div class="EducationSummary"id="Education">
+    <h2>Education Summary</h2>
+    <p>
+    This is my fourth and last year at St Johns. I am pursuing a degree in computer science. 
+    Some computer science classes that I have taken so far are: CUS 1126 (Data Structures), 
+	    CUS 1156 (Software Design methods), CUS 1162 (Computer Architecture), CUS 1163 (Operating Systems),
+	    CUS 1166 (Software Engineering), CUS 1168 (Theory of Programming Language), CUS 1161 (Logical Design) 
+	    and CUS 1174 (Artificial Intelligence). Currently I am taking CUS 1165 (Data Base Management Systems) and 
+	    CUS 1172 (Web Application Development).
+    </p>
+    <center> <img class="mx-auto d-block img-thumbnail" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/StJohn%27sUgate.jpg/220px-StJohn%27sUgate.jpg" alt="St Johns University" title="St Johns University" width="275" height= "200"></center>
+    </div>
+    <hr>
+    
+     <div class="WorkExperience" id="Work Experience">
+    <h2>Work Experience</h2>
+    <p>
+    I dont have much work experience but here are a few projects that I have worked on...
+    </p>
+    <ul>
+    <li>Built a Vehicular Cloud Real Time System using java and MySQL database. Motivated by the success of conventional cloud computing, 
+	vehicular clouds were introduced as a group of vehicles whose corporate computing, sensing, communication and physical resources
+	can be coordinated and dynamically allocated to authorized users. Vehicular Cloud Real Time System (VCRTS) is a system for managing 
+	and organizing computation resources and jobs in vehicular cloud. VCRTS also includes a visual representation of information that 
+	indicates progress or status of a process. The system provides computation services in the Vehicular Cloud (VC), including registering 
+	new vehicles and adding them to the computation resource pool, submitting jobs and keeping track of progress and completion time of the 
+	jobs in real-time report.
+    </li>
+    </ul>
+    </div>
+    <hr>
+    
+     <div class="ProgrammingSkills"id="Programming Skills">
+    <h2>Programming Skills</h2>
+    <p> Here is a list of some programming languages that I have used in the past...
+    </p>
+    
+    <table id="LangTable"> 
+  <tr>
+    <th>Programming Language</th>
+    <th>Level</th>
+  </tr>
+  <tr>
+    <td>Java</td>
+    <td>Proficient</td>
+  </tr>
+  <tr>
+    <td>Python</td>
+    <td>Familiar</td>
+  </tr>
+  <tr>
+  	<td>Prolog</td>
+    <td>Proficient</td>
+  </tr>
+   <tr>
+  	<td>C++</td>
+    <td>Beginner</td>
+  </tr>
+   <tr>
+  	<td>C#</td>
+    <td>Beginner</td>
+  </tr>
+</table>
+    
+    </div>
+    <hr>
+    
+     <div class="Interests"id="General Interests">
+    <h2 style="text-align:center;">General Interests</h2>
+    <p>
+    Some things that I like to do in my free time are...
+    </p>
+    <ul>
+    <li>Watch Movies</li>
+    <li>Play Basketball</li>
+    <li>Watch UFC/Boxing</li>
+    <li>Play Cards</li>
+    <li>Watch Tv</li>
+    <li>Play Video Games</li>
+    
+    </ul>
+    </div>
+    <hr>
+    
+     <div class="FavoriteSong"id="Favorite song, film, and TV show" style="overflow-x:auto;">
+    <h2 style="text-align:center;">Favorite Song, Film, and TV Show</h2>
+    
+    <table id="FavTable">
+    <tr>
+    <th> Favorite Shows</th>
+    <th> Favorite Movies </th>
+    <th> Favorite Songs</th>
+    </tr>
+    
+    <tr>
+    <td>Some of my favorite shows are Friends, Money Heist, Umbrella Academy, The Sopronos and The Office. 
+	    Also when I'm bored I find myself watching random episodes of Rick and Morty. 
+	    Although the show is a bit weird I find it to be quite funny and entertaining. 
+	    <br><br> Here is a video of the Rick and Morty intro <br>
+    <iframe width="250" height="200"
+src="https://www.youtube.com/embed/ozWUgt5ErGA">
+</iframe>
+    </td>
+   
+   <td> One of my all-time favorite comedy movies is 21 Jump Street.<br><br> Here is the trailer for 21 JUMP STREET<br>
+   <iframe width="250" height="200"
+src="https://www.youtube.com/embed/RLoKtb4c4W0">
+</iframe>
+<br>
+	
+    
+<div class="container mt-2">
+  <h5>Have You Seen 21 Jump Street?</h5>
+  <form class="screen-only">
+    <select name="YesOrNo" class="custom-select mb-2">
+      <option selected>Select</option>
+      <option value="Yes">Yes</option>
+      <option value="No">No</option>
+    </select>
+    
+  </form>
+</div>
+   </td>
+    
+    <td>
+    Not my favorite song but it has been stuck in my head for the past couple of days.<br><br>
+    The Kid LAROI, Justin Bieber - STAY<br>
+    <iframe width="250" height="200"
+src="https://www.youtube.com/embed/kTJczUoc26U">
+</iframe>
+    
+    </td>
+    </tr>
+    
+    </table>
+    
+    </div>
+    <hr>
+    
+     <div class="FavoriteWebsite"id="Favorite Website">
+    <h2>Favorite Website</h2>
+    <p>
+    Here are some of my most visited and favorite websites...
+    </p>
+    <ul>
+   <li><a href="https://www.google.com/" target="_blank"> Google</a> - <i>(Google is an internet search engine)</i> </li>
+   <li><a href="https://www.youtube.com/" target="_blank"> YouTube </a> - <i> (YouTube is an American online video sharing and social media platform)</i></li>
+    <li><a href="https://twitter.com/?lang=en" target="_blank"> Twitter </a> - <i>(Twitter is a free social networking microblogging service that allows registered members to broadcast short posts called tweets.)</i></li>
+     <li><a href="https://www.amazon.com/" target="_blank"> Amazon </a> - <i>(Amazon is the world’s largest online retailer and a prominent cloud services provider). </i></li>
+     <li><a href="https://www.facebook.com/" target="_blank"> Facebook </a> - <i>(Facebook is a website which allows users, who sign-up for free profiles, to connect with friends, work colleagues or people they don't know, online.)</i></li>
+      <li><a href="https://www.netflix.com/" target="_blank"> Netflix </a> - <i>(Netflix is a subscription-based streaming service that allows members to watch TV shows and movies on an internet-connected device.)</i></li>
+     
+     
+    </ul>
+    
+    
+    </div>
+    <hr>
+    
+    <div class="Projects" id="My Projects in this course">
+    <h2>My Projects in this course</h2>
+    <p>
+    Here is a list of projects that I have completed so far in this course..
+    </p>
+    <ol>
+	    <li><span style="color:blue">Milestone 1</span> - Created and deployed a simple html webpage using GitHub pages.
+	    <br>Here is a link of the webpage >>> <a href="https://charnjotb25.github.io/CUS1172-Project1/" 
+	    target="_blank"> https://charnjotb25.github.io/CUS1172-Project1/</a></li>
+    </ol>
+    </div>
+    <hr>
+    
+    </div>
+  </div>
+    
+    </div>
+	
+	<div class="footer text-center">
+  <p style="padding:5%; color:white;">You Have Reached the End  <i class="fas fa-thumbs-up" style="color: white;"></i></p> 
+	</div>
+	
+</body>
+</html>

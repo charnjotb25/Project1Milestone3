@@ -1,0 +1,71 @@
+@media only screen and (max-width: 649px){
+
+body{
+  background-color: lightblue;
+}
+
+div{
+  padding:10px 16px;
+}
+
+h1, h2{
+  text-align:center;
+}
+  
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+#LangTable {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#LangTable td, #LangTable th {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+#LangTable th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+
+#FavTable{
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+  background-color: #7fc3c0;
+}
+
+#FavTable th, td {
+  border: 2px solid #cfb845; ;
+  font-size: 18px;
+  text-align: center;
+  padding: 8px;
+}
+
+ul{
+  list-style-type: none;
+  font-size: 17px;
+}
+
+
+}
+}
+
+@media print {
+.screen-only {
+display: none
+}
+}

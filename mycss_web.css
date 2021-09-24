@@ -102,15 +102,6 @@ ul{
   font-size: 17px;
 }
 
-a:link{
-    color:black;
-}
-
-a:hover {
-  color:yellow;
-}
-
-
 .jumbotron {
    height:300px;
    width: 100%;
